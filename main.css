@@ -6,6 +6,7 @@ place-items: center;
 height: 100vh;
 margin: 0%;
 
+
 }
 
 form {
@@ -17,6 +18,11 @@ gap: 1rem;
 
 label {
 display: block;
-}
 
+    } 
+    > :last-child {
+        display: flex;
+        justify-content: flex-end;
+        gap: .25rem;
+    }
 }
